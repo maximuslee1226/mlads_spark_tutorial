@@ -146,10 +146,10 @@ sudo R --vanilla --quiet  <  /home/remoteuser/github_installs.R
 ###########################################################################
 ## Install Rstudio
 ###########################################################################
-sudo cd /home/remoteuser
-sudo wget https://raw.githubusercontent.com/maximuslee1226/mlads_spark_tutorial/master/InstallRStudio.sh
-sudo chmod 755 InstallRStudio.sh
-sudo ./InstallRStudio.sh
+#sudo cd /home/remoteuser
+#sudo wget https://raw.githubusercontent.com/maximuslee1226/mlads_spark_tutorial/master/InstallRStudio.sh
+#sudo chmod 755 InstallRStudio.sh
+#sudo ./InstallRStudio.sh
 
 ###########################################################################
 ## Change permission of Code directory
