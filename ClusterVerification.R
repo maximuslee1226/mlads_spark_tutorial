@@ -27,7 +27,7 @@ rxOptions(fileSystem = RxHdfsFileSystem())
 
 # Specify hdfsShareDir and shareDir so that
 # RxSpark will work even if we run as root
-computeContext <- RxSparkConnect(consoleOutput=TRUE,
+computeContext <- RxSpark(consoleOutput=TRUE,
 	hdfsShareDir = "/user/RevoShare/remoteuser",
 	shareDir = "/var/RevoShare/remoteuser")
 rxSetComputeContext(computeContext)
